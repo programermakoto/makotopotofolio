@@ -1,0 +1,254 @@
+/*スマホ*/
+@media (min-width:0px) and (max-width:666px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /*header----------------------------------*/
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+  }
+
+  .header-logo {
+    height: 80px;
+    margin-right: auto;
+  }
+
+  .header-logo img {
+    width: 200px;
+    height: 80px;
+    margin-right: auto;
+  }
+
+  .sp-menu {
+    height: 80px;
+    padding: 17px;
+    margin-left: auto;
+
+  }
+
+  .sp-menu #open {
+    font-size: 40px;
+    cursor: pointer;
+    color: gold;
+  }
+
+  .overlay.show a:hover {
+    background-color: rgba(250, 216, 21, 0.735);
+    border-radius: 30px;
+    color: black;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+
+
+
+
+
+
+  /*intro----------------------------------*/
+  .makoto-img-fail {
+    width: 100%;
+  }
+
+  .makoto-img-fail h1 {
+    font-size: 60px;
+  }
+
+  .makoto-img-fail img {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .introduction {
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    background-color: #ffffff39;
+    color: black;
+    margin: 110vh auto 100px;
+    border: 2px double rgb(255, 251, 10);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .introduction h1 {
+    color: black;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .introduction p {
+    font-size: 10px;
+    margin: 8px 0;
+  }
+
+  .introduction span {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.727);
+  }
+
+
+  /*skill----------------------------------*/
+  .skill-d {
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+  }
+
+  .lang-meter meter {
+    font-size: 40px;
+  }
+
+  /* 実績============================================ */
+  .eishi {
+    margin: 100px auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .eishi-explanation {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .eishi-explanation h1 {
+    background-color: rgba(135, 207, 235, 0.612);
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .eishi-explanation p {
+    margin: 10px 0;
+  }
+
+  .eishi-explanation a {
+    background-color: rgba(135, 207, 235, 0.612);
+    border: 1px solid black;
+    padding: 10px;
+    color: red;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .stand {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* 実績============================================ */
+  .container-5 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .container-5 {
+    flex-direction: column;
+  }
+
+  .card .content .content-block h2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 8rem;
+    color: rgba(156, 201, 255, 0.344);
+  }
+
+  .card {
+    margin-top:20px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.366);
+  }
+
+  .card .content .content-none p {
+    color: white;
+    font-size: 5px;
+  }
+  .content .content-block h3 {
+    color: rgba(0, 0, 0, 0.591);
+    font-size: 1.3rem;
+    z-index: 1;
+  }
+  
+  .card .content .content-none p {
+    font-size: 1rem;
+    font-weight: 300;
+    z-index: 1;
+  }
+  
+  .card .content .content-none a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+/* blog============================================ */
+.container-6 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  margin-top: 0px;
+}
+.container-6::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(black, rgba(255, 217, 0, 0.815));
+  clip-path: circle(41.6% at 30% 0%);
+  z-index: -1;
+}
+.slider a {
+  position: absolute;
+  top: -30px;
+  left: 50px;
+  width: 50%;
+  height: 50%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)*45deg)) translateZ(150px);
+}
+
+
+
+.container-6 .a {
+  position: absolute;
+  top: 500px;
+  background-color:rgba(135, 207, 235, 0.612);
+  border: 1px solid gold;
+  color:black;
+  border-radius: 10px;
+  padding: 10px 60px;
+  font-weight: 500;
+  box-shadow: 5px 5px rgb(65, 62, 62);
+}
+}
